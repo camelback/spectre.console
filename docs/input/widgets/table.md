@@ -27,6 +27,9 @@ table to a console's `Render` method.
 // Create a table
 var table = new Table();
 
+// Add table cell borders
+table.ShowRowSeparators();
+
 // Add some columns
 table.AddColumn("Foo");
 table.AddColumn(new TableColumn("Bar").Centered());
